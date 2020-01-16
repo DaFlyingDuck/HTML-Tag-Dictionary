@@ -1,4 +1,8 @@
-HTML Tag Dictionary
+HTML Tag Dictionary.txt
+
+<!DOCTYPE>: Selects which version of html you want to use
+	Attributes: html
+	Example: <!DOCTYPE html>
 
 <a>: Tag a hyperlink a specific set of words
 	Attributes: href=""(For the link to hyperlink the words to)
@@ -7,11 +11,30 @@ HTML Tag Dictionary
 <b>: Defines a bold text
 	Attributes: None
 	Example: <b> BOLD TEXT </b>
+	
+<body>: defines the content of the website to be shown
+	Attribtues: None
+	Example: <body>
+		
+		 </body>
 
 <h1>: Header tag, makes the text large and puts it on a seperate line
       Can use <h1> - <h6> and larger the number small the heading font
 	Attributes: None
 	Example: <h1>Taiki Shickele</h1>
+	
+<head>: where all the metadata is stored(contains things for website to think about)
+	Attributes: None
+	Example: <head>
+			<title> TITLE </title>
+		 </head>
+		
+<html>: Dewfines to browser where the html code starts and ends
+	Attributes: None
+	Example: <html>
+			<head> </head>
+			<body> </body>
+		 </html>
 
 <img>: To link to an image in the SAME folder as the html file (does NOT need close tag)
 	Attributes: src=""(the name of the image file in folder)
@@ -30,6 +53,10 @@ HTML Tag Dictionary
 <p>: Defines a paragraph of text and puts the text on a sperate line
 	Attributes: None
 	Example: <p> I like apples and this is a good paragraph.</p>
+	
+<title>: Defines the title of the website for the browser to show on the tab at top
+	Attributes: None
+	Example: <title> FIRST WEBSITE </title>
 
 <ul>: Defines an unordered list in which list items aren't numbered and
       just have bullet points in front
